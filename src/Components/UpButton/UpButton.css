@@ -1,0 +1,29 @@
+.scroll-up {
+  right: 3rem;
+  bottom: -50%;
+  z-index: 10000;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  color: white;
+  font-size: 22px;
+  background-color: #ff6b6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+@media (max-width: 992px) {
+  .scroll-up {
+    bottom: 70px;
+    right: 10px;
+  }
+}
+.scroll-up:hover {
+  background-color: rgb(36, 36, 36);
+  cursor: pointer;
+  transform: 0.3s;
+}
